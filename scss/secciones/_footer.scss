@@ -1,0 +1,16 @@
+/* Comienza el Footer */
+.footer { 
+    background-color: #D9D9D9;
+    border-bottom: #e0e0e0 30px solid;
+    border-top: #e0e0e0 30px solid;
+    footer li{
+        border: #000000 1px solid;
+        border-radius: 3px;
+    }  
+}
+
+.contenedorfooter{
+    display: flex;
+    justify-content: center;
+}
+/* Termina el footer */

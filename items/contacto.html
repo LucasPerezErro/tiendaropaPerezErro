@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link BT -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Link BT -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <!-- Comienza Header -->
+    <header class="header">
+        <div class="d-flex">
+            <h1 class="mx-auto">VERSIE</h1>
+        </div>
+
+        <nav class="navbar navbar-expand-lg nav-pills nav-justified">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sweaters.html">Sweaters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sacos.html">Tops</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./sale.html">Sacos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Sale</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Termina Header -->
+
+    <!-- Comienza Main -->
+    <main>
+        <div class="fondosweaterslisos">
+            <!-- Empieza FORM --> 
+            <form class="row g-3 needs-validation fondoform" novalidate>
+                <h2>Bienvenido al formulario</h2>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip01" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value="" required>
+                    <div class="valid-tooltip">
+                        Ingrese su nombre.
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltip02" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="" required>
+                    <div class="valid-tooltip">
+                        Ingrese su apellido.
+                    </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                    <label for="validationTooltipUsername" class="form-label">Instagram</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                        <input type="text" class="form-control" id="validationTooltipUsername"
+                            aria-describedby="validationTooltipUsernamePrepend" required>
+                        <div class="invalid-tooltip">
+                            Ingrese su usario de Instagram.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                    <label for="validationTooltip03" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="validationTooltip03" required>
+                    <div class="invalid-tooltip">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                    <label for="validationTooltip04" class="form-label">Localidad</label>
+                    <select class="form-select" id="validationTooltip04" required>
+                        <option selected disabled value="">elegir...</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                        Por favor elija una localidad.
+                    </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                    <label for="validationTooltip05" class="form-label">Celular</label>
+                    <input type="text" class="form-control" id="validationTooltip05" required>
+                    <div class="invalid-tooltip">
+                        Por favor ponga un numero de celular correcto.
+                    </div>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Ingrese su consulta</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </form>
+            <!-- Termina FORM --> 
+        </div>
+    </main>
+    <!-- Termina Main -->
+
+    <!-- Comienza Footer -->
+    <footer>
+        <div class="contenedorfooter footer">
+            <div class="card">
+                <h5 class="card-header">Nuestras redes sociales</h5>
+                <div class="card-body">
+                    <h5 class="card-title"></h5>
+                    <a href="#" class="btn btn-primary">Instagram</a>
+                    <a href="#" class="btn btn-primary">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Termina footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+</html>
