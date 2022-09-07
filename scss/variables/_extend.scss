@@ -1,3 +1,10 @@
+//Extend
 %estiloPrincipal{
     background-color: #df3636;
+}
+
+//Mixing
+
+@mixin estiloTexto{
+    font-size: 30px;
 }
