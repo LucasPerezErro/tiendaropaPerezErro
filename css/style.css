@@ -5,6 +5,7 @@
     font-size: 50px; }
   .header li {
     font-size: 30px;
+    padding: 2rem;
    }
     .header li:hover {
       background-color: #a0b0e0;

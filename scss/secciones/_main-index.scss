@@ -1,6 +1,6 @@
 /* Comienza Carousel */
 .background-primary{
-    background-color: #f8f5f5
+    @extend %estiloPrincipal;
 }
 .slide{
     margin-top: 10px;
