@@ -2,12 +2,11 @@
 .botoncontainer {
     display: flex;
     justify-content: space-evenly;
-    background-color: #D9D9D9;
-}
+    background-color: #D9D9D9;}
 
 .botoncontainer a {
     padding: 20px;
-    font-size: 20px;
+    @include estiloTexto(30px);
     color: black;
     margin: 20px;
     background-color: #e0a0ab;
