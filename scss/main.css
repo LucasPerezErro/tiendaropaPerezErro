@@ -1,48 +1,3 @@
-/* Empieza Header */
-.header {
-  background-color: #fcfcfc;
-}
-.header h1 {
-  font-size: 45px;
-  margin: 45px;
-}
-.header nav {
-  background-color: #C7AAA9;
-  border-bottom: #C7AAA9 10px solid;
-  border-top: #C7AAA9 10px solid;
-}
-.header ul {
-  background-color: #C7AAA9;
-  width: 100%;
-  align-items: center;
-}
-.header li {
-  font-size: 25px;
-}
-.header li:hover {
-  background-color: #e0a0ab;
-  transition: 3;
-  transform: translate(2px) rotate(2deg) skew(2deg) scale(1);
-}
-
-/* Termina Header */
-/* Comienza el Footer */
-.footer {
-  background-color: #D9D9D9;
-  border-bottom: #e0e0e0 30px solid;
-  border-top: #e0e0e0 30px solid;
-}
-.footer footer li {
-  border: #000000 1px solid;
-  border-radius: 3px;
-}
-
-.contenedorfooter {
-  display: flex;
-  justify-content: center;
-}
-
-/* Termina el footer */
 /* Comienza Carousel */
 .background-primary {
   background-color: #f8f5f5;
@@ -54,12 +9,53 @@
 }
 
 /* Termina Carousel */
+/* Empieza Header */
+.header {
+  background-color: #efe9e9;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.header li {
+  font-size: 30px;
+  padding: 2rem;
+}
+
+.header li:hover {
+  background-color: #a0b0e0;
+  transition: 3;
+  transform: translate(2px) rotate(2deg) skew(2deg) scale(1);
+}
+
+/* Termina Header */
+/* Termina Header */
+/* Comienza el Footer */
+.footer {
+  background-color: #D9D9D9;
+  border-bottom: #e0e0e0 30px solid;
+  border-top: #e0e0e0 30px solid;
+}
+
+.footer footer li {
+  border: #000000 1px solid;
+  border-radius: 3px;
+}
+
+.contenedorfooter {
+  display: flex;
+  justify-content: center;
+}
+
+/* Termina el footer */
 /* Comienza ingresos */
 .botoncontainer {
   display: flex;
   justify-content: space-evenly;
   background-color: #D9D9D9;
 }
+
 .botoncontainer a {
   padding: 20px;
   font-size: 20px;
@@ -75,7 +71,8 @@
   background-color: #C6A9A9;
   padding: 40px;
 }
-.temporadas p {
+
+.temporadas h3 {
   display: inline block;
   background-color: #D9D9D9;
   padding: 30px;
@@ -94,11 +91,13 @@
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
 }
-.temporadas p:hover {
+
+.temporadas h3:hover {
   background-color: #e7dcde;
   transition: 1;
 }
 
+/* termina temp */
 /*Comienza CARDS  */
 .card {
   background-color: #C6A9A9;
@@ -107,8 +106,9 @@
   text-align: center;
   font-size: 40px;
 }
+
 .card img {
-  border: rgb(255, 255, 255) 3px solid;
+  border: white 3px solid;
   border-radius: 10px;
   -webkit-animation-name: girando;
           animation-name: girando;
@@ -150,8 +150,9 @@
 .fondoform {
   background-color: #e0e0e0;
   padding: 40px;
-  border: rgb(56, 48, 48) 3px solid;
+  border: #383030 3px solid;
 }
+
 .fondoform h2 {
   text-align: center;
   padding: 30px;
@@ -170,6 +171,7 @@
   background-color: #C6A9A9;
   padding: 40px;
 }
+
 .titulouno p {
   display: inline block;
   background-color: #f0e5e5;

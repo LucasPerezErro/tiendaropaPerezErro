@@ -1,28 +1,21 @@
 /* Empieza Header */
-.header{
-    background-color: #fcfcfc;
-    h1{
-        font-size: 45px;
-        margin: 45px;
-    }
-    nav{
-        background-color: #C7AAA9;
-        border-bottom: #C7AAA9 10px solid;
-        border-top: #C7AAA9 10px solid; 
-    }
-    ul{
-        background-color: #C7AAA9;
-        width: 100%;
-        align-items: center;
-    }
-    li{
-        font-size: 25px;
-        &:hover{
-            background-color: #e0a0ab;
-            transition: 3;
-            transform: translate(2px) rotate(2deg) skew(2deg) scale(1);
-        }
-    }
+.header {
+    background-color: #efe9e9; }
+    .header h1 {
+      font-size: 50px; }
+    .header li {
+      font-size: 30px;
+      padding: 2rem;
+     }
+      .header li:hover {
+        background-color: #a0b0e0;
+        transition: 3;
+        transform: translate(2px) rotate(2deg) skew(2deg) scale(1); }
+  
+  /* Termina Header */
 
-}
+
+
+
+
 /* Termina Header */

@@ -1,84 +1,77 @@
-/* Comienza Carousel */
-.background-primary{
-    @extend %estiloPrincipal;
-}
-.slide{
-    margin-top: 10px;
-    margin-bottom: 10px; 
-}
-/* Termina Carousel */
-
 /* Comienza ingresos */
 .botoncontainer {
     display: flex;
     justify-content: space-evenly;
     background-color: #D9D9D9;
-    a {
-        padding: 20px;
-        font-size: 20px;
-        color: black;
-        margin: 20px;
-        background-color: #e0a0ab;
-        border: #D9D9D9 3px solid;
-    }
 }
+
+.botoncontainer a {
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    background-color: #e0a0ab;
+    border: #D9D9D9 3px solid;
+}
+
 /* Termina ingresos */
 
 /* Comienza temporadas */
-.temporadas { 
+.temporadas {
     background-color: #C6A9A9;
     padding: 40px;
-    p{
-        display: inline block;
-        background-color: #D9D9D9;
-        padding: 30px;
-        margin: 0px;
-        text-align: center;
-        text-size-adjust: 40px;
-        font-weight: bold;
-        border-radius: 10px;
-        font-size: 25px;
-        animation-name: girando;
-        animation-iteration-count:inherit;
-        animation-duration: 2s;
-        &:hover{
-            background-color: #e7dcde;
-            transition: 1; 
-        } 
-    }
 }
 
+.temporadas h3 {
+    display: inline block;
+    background-color: #D9D9D9;
+    padding: 30px;
+    margin: 0px;
+    text-align: center;
+    text-size-adjust: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 25px;
+    animation-name: girando;
+    animation-iteration-count: inherit;
+    animation-duration: 2s;
+}
+
+.temporadas h3:hover {
+    background-color: #e7dcde;
+    transition: 1;
+}
+
+/* termina temp */
+
 /*Comienza CARDS  */
-.card{ 
+.card {
     background-color: #C6A9A9;
     padding: 10px;
     width: 40vh;
     text-align: center;
-    font-size: 40px;
-    img{
-        border: rgb(255, 255, 255) 3px solid;
-        border-radius: 10px;
-        animation-name: girando;
-        animation-iteration-count: infinite;
-        animation-duration: 2s 
-    }
-}
-.contenedorcards{
+    font-size: 40px; }
+    .card img {
+      border: white 3px solid;
+      border-radius: 10px;
+      animation-name: girando;
+      animation-iteration-count: infinite;
+      animation-duration: 2s; }
+  
+  .contenedorcards {
     display: flex;
     justify-content: space-evenly;
     background-color: #C6A9A9;
-    padding: 30px;
-}
-/* Termina Cards */
+    padding: 30px; }
+  
+  /* Termina Cards */
 
 /* Comienza Keyframe */
 @keyframes girando {
-    0%{
-        transform: rotate(0deg);
-        background-color: #837676;
-    }
-    25%{
-        transform: rotate(1deg)     
-    }
-}
-/* Termina Keyframe */
+    0% {
+      transform: rotate(0deg);
+      background-color: #837676; }
+    25% {
+      transform: rotate(1deg); } }
+  
+  /* Termina Keyframe */
