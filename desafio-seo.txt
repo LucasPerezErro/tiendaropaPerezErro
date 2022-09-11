@@ -1,0 +1,13 @@
+Keywords:
+
+Index: indumentaria,ropa,tejidos,telas,lana,temporadas
+
+Sweaters: sweaters, abrigo, invierno, frio
+
+Tops: tops, verano, calor, suelto, fino
+
+Sacos: sacos,accesorio,amplio,largo
+
+Sale: oferta, promocion, descuento, regalo
+
+Contacto: contacto, llamanos, mail, atencion
