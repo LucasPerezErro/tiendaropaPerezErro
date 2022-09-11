@@ -1,13 +1,20 @@
 Keywords:
 
 Index: indumentaria,ropa,tejidos,telas,lana,temporadas
+desc: Versie es una nueva tienda online de indumentaria femenina especializada en sweaters
 
 Sweaters: sweaters, abrigo, invierno, frio
+desc: Los mejores sweaters del pais, ideales para cualquier estacion del año
+
 
 Tops: tops, verano, calor, suelto, fino
+desc: desc: Hermosos tops tejidos, el mejor precio calidad
 
 Sacos: sacos,accesorio,amplio,largo
+desc: Sacos unicos con diseños exclusivos
 
 Sale: oferta, promocion, descuento, regalo
+desc:Tenemos los mejores descuentos del mercado
 
 Contacto: contacto, llamanos, mail, atencion
+desc: Completa el formulario para que nos pongamos en contacto
