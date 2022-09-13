@@ -23,10 +23,16 @@
   padding: 2rem;
 }
 
-.header li:hover {
-  background-color: #a0b0e0;
-  transition: 3;
-  transform: translate(2px) rotate(2deg) skew(2deg) scale(1);
+.nav-link {
+  color: #040404;
+}
+
+.nav-link:hover {
+  color: #7a907c;
+}
+
+.btn-primary {
+  background-color: #7a907c;
 }
 
 /* Termina Header */
@@ -53,7 +59,7 @@
 .botoncontainer {
   display: flex;
   justify-content: space-evenly;
-  background-color: #D9D9D9;
+  background-color: #efe9e9;
 }
 
 .botoncontainer a {
@@ -61,14 +67,14 @@
   font-size: 30px;
   color: black;
   margin: 20px;
-  background-color: #e0a0ab;
+  background-color: #7a907c;
   border: #D9D9D9 3px solid;
 }
 
 /* Termina ingresos */
 /* Comienza temporadas */
 .temporadas {
-  background-color: #C6A9A9;
+  background-color: #efe9e9;
   padding: 40px;
 }
 
@@ -100,7 +106,7 @@
 /* termina temp */
 /*Comienza CARDS  */
 .card {
-  background-color: #C6A9A9;
+  background-color: #7a907c;
   padding: 10px;
   width: 40vh;
   text-align: center;
@@ -121,7 +127,7 @@
 .contenedorcards {
   display: flex;
   justify-content: space-evenly;
-  background-color: #C6A9A9;
+  background-color: #efe9e9;
   padding: 30px;
 }
 
@@ -161,20 +167,20 @@
 /* Termina formulario */
 /* Comienza fondo para cada html */
 .fondosweaterslisos {
-  background-color: #C6A9A9;
+  background-color: #efe9e9;
   padding: 30px;
 }
 
 /* Termina fondo para cada html */
 /* Comienza titulo para cada html */
 .titulouno {
-  background-color: #C6A9A9;
+  background-color: #efe9e9;
   padding: 40px;
 }
 
 .titulouno p {
   display: inline block;
-  background-color: #f0e5e5;
+  background-color: #f8f5f5;
   padding: 30px;
   margin: 0px;
   text-align: center;
