@@ -1,157 +1,17 @@
-/* Comienza Carousel */
-.background-primary {
-  background-color: #f8f5f5;
+/* Empieza header */
+.navbar {
+  z-index: 99;
 }
 
-.slide {
-  margin-top: 10px;
-  margin-bottom: 10px;
+body {
+  padding-top: 8em;
 }
 
-/* Termina Carousel */
-/* Empieza Header */
-.header {
-  background-color: #efe9e9;
+/* Termina header */
+h2 {
+  background-color: #7b91a7;
 }
 
-.header h1 {
-  font-size: 50px;
-}
-
-.header li {
-  font-size: 30px;
-  padding: 2rem;
-}
-
-.nav-link {
-  color: #040404;
-}
-
-.nav-link:hover {
-  color: #7a907c;
-}
-
-.btn-primary {
-  background-color: #7a907c;
-}
-
-/* Termina Header */
-/* Termina Header */
-/* Comienza el Footer */
-.footer {
-  background-color: #D9D9D9;
-  border-bottom: #e0e0e0 30px solid;
-  border-top: #e0e0e0 30px solid;
-}
-
-.footer footer li {
-  border: #000000 1px solid;
-  border-radius: 3px;
-}
-
-.contenedorfooter {
-  display: flex;
-  justify-content: center;
-}
-
-/* Termina el footer */
-/* Comienza ingresos */
-.botoncontainer {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #efe9e9;
-}
-
-.botoncontainer a {
-  padding: 20px;
-  font-size: 30px;
-  color: black;
-  margin: 20px;
-  background-color: #7a907c;
-  border: #D9D9D9 3px solid;
-}
-
-/* Termina ingresos */
-/* Comienza temporadas */
-.temporadas {
-  background-color: #efe9e9;
-  padding: 40px;
-}
-
-.temporadas h3 {
-  display: inline block;
-  background-color: #D9D9D9;
-  padding: 30px;
-  margin: 0px;
-  text-align: center;
-  -webkit-text-size-adjust: 40px;
-     -moz-text-size-adjust: 40px;
-          text-size-adjust: 40px;
-  font-weight: bold;
-  border-radius: 10px;
-  font-size: 25px;
-  -webkit-animation-name: girando;
-          animation-name: girando;
-  -webkit-animation-iteration-count: inherit;
-          animation-iteration-count: inherit;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-}
-
-.temporadas h3:hover {
-  background-color: #e7dcde;
-  transition: 1;
-}
-
-/* termina temp */
-/*Comienza CARDS  */
-.card {
-  background-color: #7a907c;
-  padding: 10px;
-  width: 40vh;
-  text-align: center;
-  font-size: 40px;
-}
-
-.card img {
-  border: white 3px solid;
-  border-radius: 10px;
-  -webkit-animation-name: girando;
-          animation-name: girando;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-}
-
-.contenedorcards {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #efe9e9;
-  padding: 30px;
-}
-
-/* Termina Cards */
-/* Comienza Keyframe */
-@-webkit-keyframes girando {
-  0% {
-    transform: rotate(0deg);
-    background-color: #837676;
-  }
-  25% {
-    transform: rotate(1deg);
-  }
-}
-@keyframes girando {
-  0% {
-    transform: rotate(0deg);
-    background-color: #837676;
-  }
-  25% {
-    transform: rotate(1deg);
-  }
-}
-/* Termina Keyframe */
 /* Comienza Formulario */
 .fondoform {
   background-color: #e0e0e0;
@@ -165,31 +25,12 @@
 }
 
 /* Termina formulario */
-/* Comienza fondo para cada html */
-.fondosweaterslisos {
-  background-color: #efe9e9;
-  padding: 30px;
+.fondocards {
+  background-color: #F9FAFB;
 }
 
-/* Termina fondo para cada html */
-/* Comienza titulo para cada html */
-.titulouno {
-  background-color: #efe9e9;
-  padding: 40px;
-}
-
-.titulouno p {
-  display: inline block;
-  background-color: #f8f5f5;
-  padding: 30px;
-  margin: 0px;
-  text-align: center;
-  -webkit-text-size-adjust: 40px;
-     -moz-text-size-adjust: 40px;
-          text-size-adjust: 40px;
-  font-weight: bold;
-  border-radius: 10px;
-  font-size: 25px;
-}
-
-/* Termina titulo para cada html *//*# sourceMappingURL=main.css.map */
+.contenedorcards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F9FAFB;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- link animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Keywords -->
+    <meta name="keywords" content="indumentaria,ropa,tejidos,telas,lana,temporadas">
+    <!-- Description -->
+    <meta name="description"
+        content="Versie es una nueva tienda online de indumentaria femenina especializada en sweaters">
+    <!-- link css -->
+    <link rel="stylesheet" href="../scss/main.css">
+    <title>Versié | Inicio</title>
+    <link rel="shortcut icon" href="./fotos/logo.png">
+</head>
+
+<!-- Empieza Header -->
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light position-fixed top-0 start-0 w-100">
+            <div class="container">
+                <a class="navbar-brand d-lg-none" href="#">VERSIE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+                    <div class="d-flex justify-content-center justify-content-lg-between flex-column flex-lg-row w-100">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search">
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+
+                        <a class="navbar-brand d-none d-lg-block" href="#"> VERSIE</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link mx-2" href="#"> <i class="fas fa-user">My account</i></a>
+                            </li>
+
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link mx-2" href="#"> <i class="fas fa-shopping-bag">Bag</i></a>
+                                <span class="badge rounded-pill bg-secondary">0</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="d-block w-100">
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./sweaters.html">Sweaters</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./tops.html">Tops</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./sacos.html">Sacos</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./sale.html">Sale</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <!-- Termina Header -->
+
+    <!-- Comienza Main -->
+    <main>
+        <form class="row container-fluid g-3 needs-validation fondoform" novalidate>
+            <h2>Bienvenido al formulario</h2>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationTooltip01" value="" required>
+                <div class="valid-tooltip">Ingrese su nombre.</div>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="" required>
+                <div class="valid-tooltip">
+                    Ingrese su apellido.
+                </div>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltipUsername" class="form-label">Instagram</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername"
+                        aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="invalid-tooltip">
+                        Ingrese su usario de Instagram.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 position-relative">
+                <label for="validationTooltip03" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="validationTooltip04" class="form-label">Localidad</label>
+                <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">elegir...</option>
+                    <option>...</option>
+                </select>
+                <div class="invalid-tooltip">
+                    Por favor elija una localidad.
+                </div>
+            </div>
+            <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Celular</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                    Por favor ponga un numero de celular correcto.
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text">Ingrese su consulta</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+        </form> 
+        <!-- Termina FORM -->
+    </main>
+    <!-- Termina Main -->
+
+    <!-- Empieza Footer -->
+    <footer class="d-flex justify-content-evenly my-5 text-start flew-wrap">
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item"><a href="#" class="nav-link text-dark">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Sweaters</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Sacos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Accesories</a></li>
+        </ul>
+
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item text-dark"> <a href="#" class="nav-link text-dark">Help</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Shopping Guide</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Product Care</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Contact Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Return Process</a></li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item"><a href="#" class="nav-link text-dark">Content</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Career</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Pepito</a></li>
+        </ul>
+
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item"><a href="#" class="nav-link text-dark">Termns & conditions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Career</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Pepito</a></li>
+        </ul>
+    </footer>
+    <!-- Termina Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

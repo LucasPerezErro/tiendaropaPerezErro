@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- link animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Keywords -->
+    <meta name="keywords" content="indumentaria,ropa,tejidos,telas,lana,temporadas">
+    <!-- Description -->
+    <meta name="description"
+        content="Versie es una nueva tienda online de indumentaria femenina especializada en sweaters">
+    <!-- link css -->
+    <link rel="stylesheet" href="../scss/main.css">
+    <title>Versié | Inicio</title>
+    <link rel="shortcut icon" href="./fotos/logo.png">
+</head>
+
+<!-- Empieza Header -->
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light position-fixed top-0 start-0 w-100">
+            <div class="container">
+                <a class="navbar-brand d-lg-none" href="#">VERSIE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+                    <div class="d-flex justify-content-center justify-content-lg-between flex-column flex-lg-row w-100">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search">
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+
+                        <a class="navbar-brand d-none d-lg-block" href="#"> VERSIE</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link mx-2" href="#"> <i class="fas fa-user">My account</i></a>
+                            </li>
+
+                            <li class="nav-item d-flex align-items-center">
+                                <a class="nav-link mx-2" href="#"> <i class="fas fa-shopping-bag">Bag</i></a>
+                                <span class="badge rounded-pill bg-secondary">0</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="d-block w-100">
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./sweaters.html">Sweaters</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./tops.html">Tops</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./sacos.html">Sacos</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="#">Sale</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Termina Header -->
+
+    <!-- Comienza Main -->
+    <main>
+        <div class="row container-fluid py-5 g-5">
+            <div class="col-12 col-lg-6">
+                <img src="../fotos/andy.jpg" class="m-1 w-100 sliderMainImage" data-bs-toggle="modal"
+                    data-bs-target="#imageModal">
+                <div>
+                    <img src="../fotos/andy.jpg" width="60" class="m-1 sliderThumb">
+                    <img src="../fotos/ANDY2.JPG" width="60" class="m-1 sliderThumb">
+                    <img src="../fotos/ANDY3.JPG" width="60" class="m-1 sliderThumb">
+                    <img src="../fotos/ANDY1.JPG" width="60" class="m-1 sliderThumb">
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <h3 id="productName">Sweater Andy - On Sale</h3>
+                <small class="text-muted">Articulo: 0090</small>
+                <h4 class="my-4">ARS <span id="precio"> 999$</span></h4>
+                <label for="selectSize" class="text-muted">Size:</label>
+                <select class="form-select" name="selectSize" id="size">
+                    <option selected>S</option>
+                    <option value="1">M</option>
+                </select>
+
+                <div class="d-grid my-4">
+                    <button class="btn btn-lg btn-dark" type="button" id="bagBtn">AGREGAR AL CARRITO</button>
+                </div>
+
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <strong>Descripción</strong>
+                            </button>
+                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headinOne">
+                            <div class="accordion-body">
+                                Increible sweater liviano.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <strong>Disponible en tienda</strong>
+                            </button>
+                        </div>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                            <div class="accordion-body">
+                                Disponible - En stock
+                                <br>
+                                <br>
+                                Aguardamos tu Compra
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <strong>Any Questions?</strong>
+                            </button>
+                        </div>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                            <div class="accordion-body">
+                                ¿Dudas o consultas?
+                                <br>
+                                <br>
+                                Escribinos al: 11-8888-9999
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="display-6 py-5 text-center">Tambien te puede gustar...</h4>
+                    <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row my-5">
+                        <div class="card m-2">
+                            <a href="#"><img src="../fotos/OP1.JPG" class="card-img-top" height="300" alt=""></a>
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Sweater Flopa</p>
+                                <small class="text-secondary">900$</small>
+                            </div>
+                        </div>
+
+                        <div class="card m-2">
+                            <a href="#"><img src="../fotos/OP2.JPG" class="card-img-top" height="300" alt=""></a>
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Sweater Lira</p>
+                                <small class="text-secondary">900$</small>
+                            </div>
+                        </div>
+
+                        <div class="card m-2">
+                            <a href="#"><img src="../fotos/OP3.jpg" class="card-img-top" height="300" alt=""></a>
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Sweater Mora</p>
+                                <small class="text-secondary">900$</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Termina Main -->
+
+    <!-- Empieza Footer -->
+    <footer class="d-flex justify-content-evenly my-5 text-start flew-wrap">
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item"><a href="#" class="nav-link text-dark">Products</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Sweaters</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Sacos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Accesories</a></li>
+        </ul>
+
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item text-dark"> <a href="#" class="nav-link text-dark">Help</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Shopping Guide</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Product Care</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Contact Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Return Process</a></li>
+        </ul>
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item"><a href="#" class="nav-link text-dark">Content</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Career</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Pepito</a></li>
+        </ul>
+
+        <ul class="nav flex-column">
+            <li class="fw-bold nav-item"><a href="#" class="nav-link text-dark">Termns & conditions</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Blog</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Career</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-muted">Pepito</a></li>
+        </ul>
+    </footer>
+    <!-- Termina Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

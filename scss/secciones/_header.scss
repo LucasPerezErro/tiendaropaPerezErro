@@ -1,25 +1,14 @@
-/* Empieza Header */
-.header {
-    background-color: $fondoheader; }
-    .header h1 {
-      font-size: 50px; }
-    .header li {
-      font-size: 30px;
-      padding: 2rem;
-     }
+/* Empieza header */
+.navbar{
+  z-index: 99;
+}
 
-  .nav-link{color: #040404;}
-  .nav-link:hover{color:#7a907c}
-
-  .btn-primary{
-    background-color: #7a907c ;
-  }
-  
-  
-  /* Termina Header */
+body{
+  padding-top: 8em;
+}
+/* Termina header */
 
 
 
 
 
-/* Termina Header */

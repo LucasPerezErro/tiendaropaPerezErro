@@ -1,10 +1,5 @@
 //Extend
-%estiloPrincipal{
-    background-color: #5d5050;
-}
+
 
 //Mixing
 
-@mixin estiloTexto ($size){
-    font-size: $size;
-}
