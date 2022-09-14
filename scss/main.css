@@ -25,12 +25,9 @@ h2 {
 }
 
 /* Termina formulario */
+
+/* Empieza Cards */
 .fondocards {
   background-color: #F9FAFB;
 }
-
-.contenedorcards {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #F9FAFB;
-}/*# sourceMappingURL=main.css.map */
+/* Termina Cards */
