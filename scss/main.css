@@ -27,4 +27,10 @@ h2 {
 /* Termina formulario */
 .fondocards {
   background-color: #F9FAFB;
+}
+
+.contenedorcards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F9FAFB;
 }/*# sourceMappingURL=main.css.map */
