@@ -4,7 +4,7 @@
 }
 
 body {
-  padding-top: 8em;
+  padding-top: 9em;
 }
 
 /* Termina header */
@@ -25,9 +25,6 @@ h2 {
 }
 
 /* Termina formulario */
-
-/* Empieza Cards */
 .fondocards {
   background-color: #F9FAFB;
-}
-/* Termina Cards */
+}/*# sourceMappingURL=main.css.map */
