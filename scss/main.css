@@ -1,6 +1,6 @@
 /* Empieza header */
 .navbar {
-  z-index: 99;
+  z-index: 98;
 }
 
 body {
@@ -45,6 +45,11 @@ h2 {
   font-weight: 100;
 }
 
+@media (max-width: 700px) {
+  .version-cel {
+    display: none;
+  }
+}
 /* Comienza Formulario */
 .fondoform {
   background-color: #e0e0e0;
