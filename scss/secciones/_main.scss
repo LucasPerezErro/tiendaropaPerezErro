@@ -1,0 +1,39 @@
+h2 {
+  background-color: #7b91a7;
+}
+
+.hover-animation {
+	position: relative;
+	height: 450px;
+	width: 450px;
+	margin: 10% auto 0;
+	color: #fff;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+  }
+  
+  .hover-animation img {
+	position: absolute;
+	left: 0;
+	width: 450px;
+	height: 450px;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+  }
+  .hover-animation img.img-front:hover{
+	opacity:0;
+	cursor: pointer;
+  }
+  
+  .fotogrande{
+	height: 85vh;
+	overflow: hidden;
+  }
+
+  .textomarca{
+	padding-right: 300px;
+	font-size: 20px;
+	font-weight: 100;	
+  }

@@ -1,9 +1,23 @@
 .fondocards {
-    background-color: #F9FAFB;
-  }
-  .contenedorcards {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #F9FAFB;
-  }
-  
+  background-color: #F9FAFB;
+}
+.contenedorcards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #F9FAFB;
+  overflow: hidden;
+}
+
+.efectofotos{
+  overflow: hidden;
+  border-radius: 20px;
+}
+.efectofotos img{
+  transition: all 400ms ease-out;
+  object-fit: cover;
+  overflow: hidden;}
+
+.efectofotos img:hover{
+  transform: translateY(-2%);
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+}

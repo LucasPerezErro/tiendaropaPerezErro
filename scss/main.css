@@ -12,13 +12,45 @@ h2 {
   background-color: #7b91a7;
 }
 
+.hover-animation {
+  position: relative;
+  height: 450px;
+  width: 450px;
+  margin: 10% auto 0;
+  color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.hover-animation img {
+  position: absolute;
+  left: 0;
+  width: 450px;
+  height: 450px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover-animation img.img-front:hover {
+  opacity: 0;
+  cursor: pointer;
+}
+
+.fotogrande {
+  height: 85vh;
+  overflow: hidden;
+}
+
+.textomarca {
+  padding-right: 300px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
 /* Comienza Formulario */
 .fondoform {
   background-color: #e0e0e0;
   padding: 40px;
   border: #383030 3px solid;
 }
-
 .fondoform h2 {
   text-align: center;
   padding: 30px;
@@ -33,4 +65,43 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   background-color: #F9FAFB;
-}/*# sourceMappingURL=main.css.map */
+  overflow: hidden;
+}
+
+.efectofotos {
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.efectofotos img {
+  transition: all 400ms ease-out;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.efectofotos img:hover {
+  transform: translateY(-2%);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Comienza titulo para cada html */
+.titulouno {
+  padding: 40px;
+}
+
+.titulouno p {
+  display: inline block;
+  background-color: #7b91a7;
+  padding: 30px;
+  margin: 0px;
+  text-align: center;
+  -webkit-text-size-adjust: 40px;
+     -moz-text-size-adjust: 40px;
+          text-size-adjust: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+/* Termina titulo para cada html *//*# sourceMappingURL=main.css.map */

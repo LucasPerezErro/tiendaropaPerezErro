@@ -56,22 +56,22 @@
                     <div class="d-block w-100">
                         <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="../index.html">Inicio</a>
+                                <a class="nav-link" href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link active" aria-current="page" href="#">Sweaters</a>
+                                <a class="nav-link" href="./pages/sweaters.html">Sweaters</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="./tops.html">Tops</a>
+                                <a class="nav-link" href="./pages/tops.html">Tops</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="./sacos.html">Sacos</a>
+                                <a class="nav-link" href="./pages/sacos.html">Sacos</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="./sale.html">Sale</a>
+                                <a class="nav-link" href="./pages/sale.html">Sale</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -93,10 +93,9 @@
                     </div>
                 </div>
 
-                <div class="display-6 py-5">Most Popular</div>
-
-
-                <div class="d-flex justify-content-evenly align-items-center flex-column flex-lg-row my-5" id="new">
+                <div class="wow animate__animated animate__swing animate__delay-1s display-6 py-5">Most Popular</div>
+                <div class="efectofotos d-flex justify-content-evenly align-items-center flex-column flex-lg-row my-5"
+                    id="new">
                     <div class="card m-2">
                         <a href="">
                             <img src="./fotos/sw1.jpg" class="card-img-top" height="500" alt="Product">
@@ -132,38 +131,42 @@
                     </div>
                 </div>
 
-
                 <a href="./pages/tops.html" class="btn btn-outline-dark my-5">Ver todos los productos</a>
+                <div class="wrapper">
+                    <div class="d-flex justify-content-evenly align-items-center flex-column flex-lg-row my-5">
+                        <div class="hover-animation position-relative m-2">
+                            <img class="img-back" src="./fotos/edi3.jpg" alt="rayado1">
+                            <img class="img-front" src="./fotos/BANNER3.jpg" alt="rayado2">
+                            <a href="./pages/sweaters.html" class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block">Rayados</a>
+                        </div>
 
-                <div class="d-flex justify-content-evenly align-items-center flex-column flex-lg-row my-5">
-                    <div class="position-relative m-2">
-                        <img src="./fotos/sw4.jpg" height="400" alt="Lisos">
-                        <a href="#" class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block">Lisos</a>
-                    </div>
+                        <div class="hover-animation position-relative m-2">
+                            <img class="img-back" src="./fotos/edi1.jpg" alt="newin1">
+                            <img class="img-front" src="./fotos/BANNER4.jpg" alt="newin2">
+                            <a href="./pages/sale.html" class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block">New In</a>
+                        </div>
 
-                    <div class="position-relative m-2">
-                        <img src="./fotos/rayadodos.jpg" height="400" alt="Rayados">
-                        <a href="#"
-                            class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block">Rayados</a>
-                    </div>
-
-                    <div class="position-relative m-2">
-                        <img src="./fotos/sw4.jpg" height="400" alt="Formas">
-                        <a href="#"
-                            class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block">Formas</a>
+                        <div class="hover-animation position-relative m-2">
+                            <img class="img-back" src="./fotos/edi2.jpg" alt="lisos1">
+                            <img class="img-front" src="./fotos/BANNER1.jpg" alt="lisos2">
+                            <a href="./pages/sacos.html" class="btn btn-light position-absolute start-0 bottom-0 ms-2 mb-2 d-block">Lisos</a>
+                        </div>
                     </div>
                 </div>
                 <!-- aca -->
                 <div class="row container-fluid align-items-center gy-5 my-5">
                     <div class="col-12 col-md-6">
-                        <img src="./fotos/OP5.jpg" class="w-100 h-100">
+                        <img src="./fotos/OP5.jpg" class="fotogrande">
                     </div>
 
                     <div class="col-12 col-md-6">
-                        <div>
-                            <div class="display-4">OUR BRAND</div>
+                        <div class="container textomarca">
+                            <div class="wow animate__animated animate__bounce display-4">OUR BRAND</div>
+                            <br>
                             <p>Versie es una marca especializada en desarrollo y fabricación de prendas de punto y
                                 tejidos basada en Buenos Aires, Argentina.
+                                <br>
+                                <br>
                                 Creamos diseños modernos, contemporáneos, cómodos pero versátiles. Nos
                                 destacamos por la alta calidad y nobleza de la materia prima y terminación
                                 de cada prenda.</p>
@@ -178,7 +181,7 @@
                         <button class="btn btn-outline-dark" type="submit">Subscribe</button>
                     </form>
                 </section>
-                <!-- TerminaSection para suscribirse-->
+                <!-- Termina Section para suscribirse-->
             </div>
         </div>
     </main>
