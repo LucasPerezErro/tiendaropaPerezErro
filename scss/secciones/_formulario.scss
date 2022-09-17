@@ -1,11 +1,18 @@
 /* Comienza Formulario */
 .fondoform {
-  background-color: #e0e0e0;
-  padding: 40px;
-  border: #383030 3px solid; 
-  h2 {
-    text-align: center;
-    padding: 30px; }
-  }
-
-/* Termina formulario */
+  @extend %formulario;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr,1fr,1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "clase1 clase2 clase3 clase4";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  justify-items: center;
+  background-color: white;
+}
+/* Termina Formulario */

@@ -1,45 +1,36 @@
+//Inicia color de fondo para Tops y Sacos
 h2 {
-  background-color: #7b91a7;
-}
-
-.hover-animation {
-	position: relative;
-	height: 450px;
-	width: 450px;
-	margin: 10% auto 0;
-	color: #fff;
-	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+	background-color: $fondoazul;
   }
+  ////Termina color de fondo para Tops y Sacos
   
-  .hover-animation img {
-	position: absolute;
-	left: 0;
-	width: 450px;
-	height: 450px;
-	-webkit-transition: opacity 0.5s ease-in-out;
-	-moz-transition: opacity 0.5s ease-in-out;
-	-ms-transition: opacity 0.5s ease-in-out;
-	-o-transition: opacity 0.5s ease-in-out;
-	transition: opacity 0.5s ease-in-out;
+  //Inicia animacion a las imagenes del main
+  .hover-animation {
+	@extend %hoverAnimation;
   }
-  .hover-animation img.img-front:hover{
-	opacity:0;
-	cursor: pointer;
-  }
+  //Termina animacion a las imagenes del main
   
-  .fotogrande{
-	height: 85vh;
-	overflow: hidden;
+  //Inicia edicion a la foto grande del main
+  .fotogrande {
+	@extend %fotoGrande;
   }
-
-  .textomarca{
-	padding-right: 300px;
-	font-size: 20px;
-	font-weight: 100;	
+  //Termina edicion a la foto grande del main
+  
+  //Inicia edicion al texto que acompaña a la imagen grande del main
+  .textomarca {
+	  padding-right: 300px;
+	  @include estiloTexto(20px,black);
+	  font-weight: 100;
+	  font-family: $raleway;
+	  overflow: hidden;
   }
-
-@media (max-width: 700px) {
-	.version-cel{
-		display: none;
+  //Termina edicion al texto que acompaña a la imagen grande del main
+  
+  //Inicia mediaQuery para modificar contenido en tamaño 1425
+  @media (max-width: 1425px) {
+	.version-cel {
+	  display: none;
 	}
-}
+  }
+  //Termina mediaQuery para modificar contenido en tamaño 1425
+  

@@ -1,23 +1,30 @@
+//Inicia fondo para las cards del main
 .fondocards {
-  background-color: #F9FAFB;
+  background-color: $fondocardsmain;
 }
+//Termina fondo para las cards del main
+
+//Inicia contenedor para cards SACOS
 .contenedorcards {
   display: flex;
   justify-content: space-evenly;
-  background-color: #F9FAFB;
+  background-color: $fondocardsacos;
   overflow: hidden;
 }
+//Termina contenedor para cards SACOS
 
+//Inicia efectos para las imagenes del index
 .efectofotos{
   overflow: hidden;
   border-radius: 20px;
-}
-.efectofotos img{
+  img{
   transition: all 400ms ease-out;
   object-fit: cover;
-  overflow: hidden;}
-
-.efectofotos img:hover{
-  transform: translateY(-2%);
-  box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  overflow: hidden;
+  &:hover{
+    transform: translateY(-2%);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+  }
 }
+}
+//Termina efectos para las imagenes del index
