@@ -31,10 +31,15 @@
 %formulario{
     background-color: $fondoformulario;
     padding: 40px;
-	margin-top: 40px;
-    border: #383030 3px solid; 
+	margin-top: 20px;
+    border-top: #383030 3px solid; 
+	border-bottom: #383030 3px solid;
     h2 {
       text-align: center;
       padding: 30px;
      }
+}
+
+.body{
+	background-color: #326eab;
 }
